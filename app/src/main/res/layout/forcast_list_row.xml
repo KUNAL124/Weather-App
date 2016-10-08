@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="5dp"
+    android:elevation="4dp"
+    app:cardBackgroundColor="@color/forcast_row"
+    app:cardCornerRadius="6dp">
+
+    <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/box_office_list_item"
+        android:layout_marginRight="@dimen/box_office_list_item"
+        android:background="@color/relative_trans"
+        android:minHeight="100dp">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:minWidth="@dimen/textview_min_width"
+            android:text="20,july" />
+
+        <ImageView
+            android:id="@+id/weather_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/date"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/min_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignTop="@+id/weather_description"
+            android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@+id/weather_image"
+            android:layout_toRightOf="@+id/weather_image"
+            android:background="@drawable/rounded_corner3"
+            android:text="min_temp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/max_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@+id/min_temp"
+            android:layout_toRightOf="@+id/min_temp"
+            android:background="@drawable/rounded_corner2"
+            android:text="max_temp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/weather_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="3dp"
+            android:textSize="12dp"
+            android:layout_toRightOf="@+id/max_temp"
+            android:text="hello" />
+
+        <TextView
+            android:id="@+id/wind_speed_direction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/min_temp"
+            android:layout_alignStart="@+id/min_temp"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="30dp"
+            android:text="2.8 m/s,NNW(270)" />
+
+        <TextView
+            android:id="@+id/clouds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/wind_speed_direction"
+            android:layout_alignStart="@+id/wind_speed_direction"
+            android:layout_below="@+id/weather_image"
+            android:layout_marginTop="30dp"
+            android:text="Clouds:20%,1000 hpa" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

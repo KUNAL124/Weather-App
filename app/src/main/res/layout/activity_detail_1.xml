@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        tools:context="com.example.naruto.weatherapp.Main.detail_1">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weather_image_jpg"
+        android:src="@mipmap/ic_launcher"
+        android:layout_above="@+id/weather_status"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Small Text"
+        android:id="@+id/Date"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textSize="60dp"
+        android:id="@+id/temp_max"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/Date"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textSize="40dp"
+        android:id="@+id/temp_min"
+        android:layout_below="@+id/temp_max"
+        android:layout_alignRight="@+id/temp_max"
+        android:layout_alignEnd="@+id/temp_max" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Small Text"
+        android:id="@+id/weather_status"
+        android:layout_alignBottom="@+id/temp_min"
+        android:layout_alignRight="@+id/weather_image_jpg"
+        android:layout_alignEnd="@+id/weather_image_jpg" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textStyle="italic"
+        android:id="@+id/Humidity"
+        android:layout_below="@+id/temp_min"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textStyle="italic"
+        android:id="@+id/pressure_new"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/Humidity"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/wind"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/pressure_new"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textStyle="italic"
+        android:id="@+id/cloudness"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/wind"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/sea_level"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/cloudness"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textStyle="italic"
+        android:id="@+id/grnd_level"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/sea_level"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
+</ScrollView>

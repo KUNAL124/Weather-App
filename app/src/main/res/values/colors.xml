@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#0077ff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="divider_color">#ABFCCC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="weather_status_text_back">#cbcbce</color>
+    <color name="current_background">#37b409</color>
+    <color name="dark_brown1">#B7802C</color>
+    <color name="rounded_corner_color">#F43008</color>
+    <color name="max_temp">#EE9A17</color>
+    <color name="min_temp">#474541</color>
+    <color name="black">#000000</color>
+    <color name="Transparent">#c98e9296</color>
+    <color name="card_view">#b257b10d</color>
+    <color name="forcast_background">#bd0099ff</color>
+    <color name="complete_transparent">#aff9fbfc</color>
+    <color name="forcast_row">#130d0d0d</color>
+    <color name="relative_trans">#00f9fbfc</color>
+    <color name="forcast_back">#37570de1</color>
+    <color name="swipe">#ca1d1d1e</color>
+
+</resources>

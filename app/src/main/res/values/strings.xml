@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Weather Guide</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cancel">CANCEL</string>
+    <string name="action_settings">Settings</string>
+    <string name="GPSAlertDialogTitle">GPS ALERT</string>
+    <string name="GPSAlertDialogMessage">UNABLE TO FETCH THE LOCATION</string>
+    <!--String name of the shared pref.used to store the current and current_selected location -->
+    <string name="Current_latitude">Current_latitude</string>
+    <string name="Current_longitude">Current_longitude</string>
+    <string name="Current_selected_latitude">Current_selected_latitude</string>
+    <string name="Current_selected_longitude">Current_selected_longitude</string>
+    <string name="Location_changed">Location of the device has been changed.The Selected location is set to the current location of device</string>
+    <string name="PREF_FILE">PREF_FILE</string>
+    <string name="title_activity_more_details">More_details</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_locatio_chooser">Map</string>
+    <string name="title_activity_location_details">Location details</string>
+</resources>
